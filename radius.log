@@ -1,8 +1,0 @@
-Arguments: login SID-PIOLOMARTIN-[L2TP]-19 piolomartin 175.176.17.90
-Arguments: login SID-PIOLOMARTIN-[OPENVPN_L3]-20 piolomartin 110.54.146.130
-Arguments: logout SID-PIOLOMARTIN-[OPENVPN_L3]-20 piolomartin 1978 2233
-Arguments: logout SID-PIOLOMARTIN-[L2TP]-19 piolomartin 149320 67746
-Arguments: login SID-PIOLOMARTIN-[L2TP]-21 piolomartin 175.176.17.90
-Arguments: logout SID-PIOLOMARTIN-[L2TP]-21 piolomartin 11329 7347
-Arguments: login SID-PIOLOMARTIN-[L2TP]-3 piolomartin 175.176.17.90
-Arguments: logout SID-PIOLOMARTIN-[L2TP]-3 piolomartin 11318 5285
