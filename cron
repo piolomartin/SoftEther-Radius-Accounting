@@ -1,0 +1,1 @@
+* * * * * root cd /opt/softether-radacct; /usr/bin/php acctstatus.php 1>>acctstatus.php.log 2>>acctstatus.php.log  

@@ -4,9 +4,9 @@ cd /opt/softether-radacct
 echo "Arguments: $@" >>radius.log
 
 if [ $1 = "login" ]; then
-    php acctstart.php "${2}" 2>>radius.log
+    php acctstart.php "${2}" 1>>radius.log 2>>radius.log
 fi
 
 if [ $1 = "logout" ]; then
-    php acctstop.php "${2}" "${4}" "${5}" 2>>radius.log
+    php acctstop.php "${2}" "${4}" "${5}" 1>>radius.log 2>>radius.log
 fi
